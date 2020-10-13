@@ -1,8 +1,8 @@
 package kw6.day25;
 
-import static kw2.day6.ClassWork3.split;
+import static day06.Classwork2.split;
 
-public class AllAboutString {
+public class AllAboutString1 {
     public static void main(String[] args) {
         String str1 = "Это тестовая строка, которая меня сегодня точно заебет";
         System.out.println("charAt от 9-го символа =" + str1.charAt(9));
