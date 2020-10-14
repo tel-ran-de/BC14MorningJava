@@ -1,0 +1,21 @@
+1. Open Folder of IDEA Project
+example: cd ~/IdeaProjects/BC14Class
+2. Switch to your master branch
+example: git checkout master
+3. Update your branch with the upstream
+example: git fetch upstream
+         git rebase upstream/master master
+4. Now, if there weren't errors, your master branch
+   is synchronized to the upstream
+5. Create new Branch exclusively for the HomeWork
+example: git checkout -b dayx_name_hw
+6. Make your HomeWork and do an Upload to git
+example: git add <url of your homeworkfiles> (like /src/dayx/hwx)
+7. Commit your Homework
+example: git commit -m "HomeWork of dayx"
+8. Push your Homework to your new created Branch
+example: git push origin dayx_name_hw
+9. Go to Github and open upstream repository
+10. Click on "Create ne Pull Request"
+11. Use the #number in the commentfield to link your request
+    to wished Issue
