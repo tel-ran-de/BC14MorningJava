@@ -25,7 +25,7 @@ git status
 git commit -m "Commit message"
 git status
 git push origin (name of a new branch)
-# follow the link in terminal/go to your repasitory
+# follow the link in terminal/go to your repository
 # create and pull request
 # in comments, use # with number/name of an issue, 
 # where you want to show up your request
