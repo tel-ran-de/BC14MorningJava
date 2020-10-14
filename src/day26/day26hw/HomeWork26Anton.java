@@ -21,8 +21,8 @@ public class HomeWork26Anton {
     }
 
     private static boolean endOther(String str1, String str2) {
-        return str1.length() < str2.length() ? str2.toLowerCase().contains(str1.toLowerCase()) :
-                str1.toLowerCase().contains(str2.toLowerCase());
+        return str1.length() < str2.length() ? str2.toLowerCase().endsWith(str1.toLowerCase()) :
+                str1.toLowerCase().endsWith(str2.toLowerCase());
     }
 
     private static int countHi(String str) {
