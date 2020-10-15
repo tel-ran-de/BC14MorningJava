@@ -6,7 +6,7 @@ public class SnowflakeArray {
     }
 
     private static void printTwoDCharArray(char[][] arr) {
-        for (int i = 0; i < arr[i].length; i++) {
+        for (int i = 0; i < arr.length; i++) {
             String result = "";
             for (char element : arr[i]) {
                 result += element + " ";
