@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(190, 234, 240);
+}
+h1{
+    color: rgb(82, 61, 30);
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.example_main_div div {
+    border: 1px solid black;
+}
+.example_toolbar {
+float: left;
+width: 33.3333%;
+height: 100px;
+}
+.example_content1 {
+float: right;
+width: 60%;
+height: 200px;
+}
+.example_content2 {
+float: right;
+width: 60%;
+height: 200px;
+}
+.image1{
+    float: right;
+    margin: 0 20px 15px 15px;
+}
+.image2{
+    float: right;
+    margin: 0 20px 15px 15px;
+}
+
+  
+  
+  
