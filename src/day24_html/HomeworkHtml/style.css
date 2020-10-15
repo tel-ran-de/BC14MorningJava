@@ -1,0 +1,78 @@
+body {
+    background-color: darkkhaki;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 1px;
+    margin-left: 550px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: indigo;
+    margin-top: 1px;
+    margin-left: 550px;
+}
+
+p {
+    font-size: 15px;
+    color: cadetblue;
+    margin-left: 30px;
+    margin-bottom: 1px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.rightP {
+    font-size: 15px;
+    color: cadetblue;
+    margin-left: 270px;
+    margin-bottom: 1px;
+    margin-right: 30px;
+}
+
+.column {
+    float: left;
+    margin-top: 20px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+h4 {
+    margin-left: 30px;
+}
+
+.secondUl {
+    font-size: 15px;
+    color: cadetblue;
+}
+
+.firstUl {
+    line-height: 1, 5;
+}
+
+.logo {
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
