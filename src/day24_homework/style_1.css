@@ -1,0 +1,68 @@
+                    body {
+                        background-color: rgb(180, 227, 255);
+                    }
+
+                    * {
+                        box-sizing: border-box;
+                    }
+
+                    .column {
+                        float: left;
+                        padding: 10px;
+                    }
+
+                    .left {
+                        width: 65%;
+                        border-style: solid;
+                        border-color: rgb(106, 178, 226);
+                        padding-left: 2em;
+                        padding-right: 2em;
+
+                    }
+
+                    .right {
+                        width: 35%;
+
+                    }
+
+                    .row {
+                        min-width: 500px;
+                        width: 75%;
+                        margin-left: auto;
+                        margin-right: auto;
+
+                    }
+
+                    .row:after {
+                        content: "";
+                        display: table;
+                        clear: both;
+                    }
+
+                    h1 {
+                        text-align: center;
+                        color: rgb(8, 92, 117);
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+
+                    h2 {
+                        text-align: center;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        color: rgb(9, 26, 102);
+                    }
+
+                    img {
+                        width: 200px;
+                        vertical-align: top;
+                        float: right;
+                    }
+
+                    p {
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                    }
+
+                    blockquote {
+
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                    }
+                    
