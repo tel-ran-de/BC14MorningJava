@@ -1,0 +1,39 @@
+body{
+    background-color:burlywood;
+}
+h1{
+    color: firebrick;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 450px;
+    margin-right: 80px;
+  }
+img{
+    margin-left: 450px;
+}
+.column{
+        float: left;
+        margin-left: 350px;
+        margin-top: 5em;
+        margin-right: 300px;
+      }
+      
+      .left {
+        width: 25%;
+      }
+      
+      .right {
+        width: 75%;
+      }
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h2{
+    margin-left: 350px;
+    
+}
