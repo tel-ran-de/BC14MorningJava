@@ -1,6 +1,6 @@
 package day25;
 
-public class Homework23 {
+public class HomeWork23 {
     public static void main(String[] args) {
       /*  System.out.println(repeatSeparator("Word", "X", 3));
         System.out.println(repeatSeparator("This", "And", 2));
