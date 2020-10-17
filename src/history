@@ -1,0 +1,48 @@
+   0 mkdir -p /home/user/start/
+   1 cd start
+   2 cd /home/user/start
+   3 cd /
+   4 touch /home/user/start/1.txt
+   5 cd /home/user/start/
+   6 ls
+   7 start >> 1.txt
+   8 vim 1.txt
+   9 vim 1
+  10 date >> 1.txt
+  11 cat 1.txt
+  12 vi 1.txt
+  13 ls
+  14 cat 1.txt
+  15 vi 1.txt
+  16 ls
+  17 cat 1.txt
+  18 cd /opt/task/
+  19 cd /task/
+  20 mkdir -p /opt/task/
+  21 touch /opt/task/start.txt
+  22 cat /opt/task/start.txt
+  23 cat start.txt
+  24 cd /opt/task/start.txt
+  25 cd /opt/task/
+  26 ls
+  27 cat start.txt
+  28 cat /start.txt
+  29 vi start.txt
+  30 ls -la
+  31 ls -la /
+  32 ls -la / tail -8 | >> start.txt
+  33 ls
+  34 cat start.txt
+  35 ls -la / tail -8 | >> start
+  36 cat start.txt
+  37 cd /home/user/start/
+  38 ls
+  39 cat 1.txt
+  40 cp 1.txt /opt/task/start.txt
+  41 cat start.txt
+  42 cd /opt/task/
+  43 ls
+  44 cat start.txt
+  45 export_file /opt/task/start.txt
+  46 history
+  47 history > /tmp/hictory.txt
