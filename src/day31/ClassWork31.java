@@ -9,7 +9,7 @@ public class ClassWork31 {
         char[] charArr2 = str.toCharArray();
         String cyrillic = " .,абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
         char[] charArr3 = cyrillic.toCharArray();
-       // sortOdin(charArr1);
+        // sortOdin(charArr1);
       /*  System.out.println(Arrays.toString(charArr1));
         sortOdin(charArr2);
         System.out.println(Arrays.toString(charArr2));

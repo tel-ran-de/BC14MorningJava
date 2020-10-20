@@ -14,7 +14,7 @@ public class CocktailSort {
         System.out.println(Arrays.toString(myCopy));
     }
 
-    private static void swapTwoElementsInIntArray(int[] arr, int x, int y) {
+    public static void swapTwoElementsInIntArray(int[] arr, int x, int y) {
         int temp = arr[x];
         arr[x] = arr[y];
         arr[y] = temp;
@@ -45,7 +45,7 @@ public class CocktailSort {
         }
     }
 
-    private static int[] createIntArray(int size) {
+    public static int[] createIntArray(int size) {
         int[] output = new int[size];
         for (int i = 0; i < size; i++) {
             output[i] = (int) (Math.random() * 100);
