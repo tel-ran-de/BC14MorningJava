@@ -21,7 +21,7 @@ public class BubbleSortIntro {
         FillAndPrintIntArray.myPrintIntArray(array);
     }
 
-    private static void bubbleSort(int[] array) {
+    public static void bubbleSort(int[] array) {
         boolean unsorted = true;
 /*        boolean sorted = false;
         while(!sorted){
