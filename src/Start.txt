@@ -1,0 +1,10 @@
+Start
+Fri Oct 16 21:40:51 UTC 2020
+drwxr-xr-x    5 root     root           237 Sep 28 12:26 Anastasia
+drwxr-xr-x    4 root     root           140 Oct 16 21:39 run
+drwxr-xr-x    2 root     root          2363 Aug 17 21:14 sbin
+drwxr-xr-x    2 root     root            37 May 29 16:20 srv
+dr-xr-xr-x   12 root     root             0 Oct 16 21:39 sys
+drwxrwxrwt    2 root     root            37 Sep 10 17:39 tmp
+drwxr-xr-x   10 root     root           229 Jun 24 15:46 usr
+drwxr-xr-x   16 root     root           348 Aug 27 13:00 var
