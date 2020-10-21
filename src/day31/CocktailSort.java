@@ -32,6 +32,7 @@ public class CocktailSort {
                 }
             }
             end--;
+            System.out.println("end" + end);
             for (int i = end; i > start; i--) { //downwards
                 if (arr[i] < arr[i - 1]) {
                     swapTwoElementsInIntArray(arr, i, i - 1);
@@ -39,6 +40,8 @@ public class CocktailSort {
                 }
             }
             start++;
+            System.out.println("start" + start);
+
             if (count == 0) {
                 break;
             }

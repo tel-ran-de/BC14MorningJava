@@ -1,4 +1,4 @@
-package varargs;
+package day31.varargs;
 
 public class VarArgs {
     public static void main(String[] args) {
