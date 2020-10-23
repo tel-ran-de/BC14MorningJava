@@ -22,9 +22,10 @@ public class ExerciseArray19 {
     }
 
     private static int[] post4(int[] input) {
-        //1 Findelast 4;
-        //2 Finde output array length
-        //3 Fill new output array
+        // 1 Findelast 4;
+        // 2 Finde output array length
+        // 2.5 Create output array
+        // 3 Fill new output array
         int indexFor = 0;
         for (int i = input.length - 1; i >= 0; i--) {
             if (input[i] == 4) {
@@ -32,13 +33,19 @@ public class ExerciseArray19 {
                 break;
             }
         }
+        // 1. done
         int size = input.length - indexFor - 1;
+        // 2. done
         int[] output = new int[size];
-        for (int i = size - 1; i >= 0; i--) {
+        // 2.5. done
+        /* for (int i = size - 1; i >= 0; i--) {
             output[i] = input[input.length + i - size];
+        }*/
+        for (int i = 0; i < size; i++) {
+            output[i] = input[i + indexFor + 1];
         }
+        // 3. done
         return output;
-
     }
 
     private static int[] shiftLeft(int[] input) {
