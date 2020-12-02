@@ -1,0 +1,59 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git status
+On branch poka-vse-rabotaet
+nothing to commit, working tree clean
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git fetch upstream
+remote: Enumerating objects: 47, done.
+remote: Counting objects: 100% (47/47), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 121 (delta 35), reused 46 (delta 35), pack-reused 74R                                                       s
+Receiving objects: 100% (121/121), 20.53 MiB | 14.19 MiB/s, done.
+Resolving deltas: 100% (42/42), completed with 11 local objects.
+From github.com:tel-ran-de/BC14MorningJava
+ * [new branch]      day29-html -> upstream/day29-html
+   1ce61a4..a8c9fba  master     -> upstream/master
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git fetch upstream
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git rebase upstream/master master
+error: could not apply f00e7d6... try and cry
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply f00e7d6... try and cry
+CONFLICT (modify/delete): src/day25/Homework23.java deleted in HEAD and modified in f00e7d6... try and cry. Version f00e7d6... try and cry of src/day25/Homework2
+3.java left in tree.
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git rebase --abort
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Zoja\Desktop\IdeaProjects\ClassWork>
